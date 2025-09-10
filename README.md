@@ -80,8 +80,8 @@ Use kubectl apply -f eks/workloads/deployment.yaml after cluster provisioning.
 
 3. Observability Stack Integration
 ### a. Prometheus & Grafana via Helm
-In observability/prometheus/main.tf:
-In observability/grafana/main.tf:
+<img width="410" height="91" alt="image" src="https://github.com/user-attachments/assets/b0d6b337-1ab6-4e99-a567-3dc93d82a6af" />
+
 ### b. Loki for Logs
 In observability/loki/main.tf:
 
