@@ -72,17 +72,17 @@ c. Add Lifecycle Hooks (Optional)
 Use lifecycle.tf to define auto-scaling or termination protection if needed.
 
 2. EKS Cluster Setup and Workload Deployment
-a. Create EKS Cluster Module
+### a. Create EKS Cluster Module
 In modules/eks-cluster/main.tf:
-b. Deploy Workloads
+### b. Deploy Workloads
 In eks/workloads/deployment.yaml:
 Use kubectl apply -f eks/workloads/deployment.yaml after cluster provisioning.
 
 3. Observability Stack Integration
-a. Prometheus & Grafana via Helm
+### a. Prometheus & Grafana via Helm
 In observability/prometheus/main.tf:
 In observability/grafana/main.tf:
-b. Loki for Logs
+### b. Loki for Logs
 In observability/loki/main.tf:
 
 
