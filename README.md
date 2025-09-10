@@ -62,6 +62,7 @@ terraform apply
 ```
 ## Summary
 <img width="765" height="405" alt="image" src="https://github.com/user-attachments/assets/0c0f33eb-9638-4fa4-a455-119cea2e4b2b" />
+
 ##  Step-by-Step Instructions
 1. EC2 Lifecycle Management with Terraform
 a. Define EC2 Module
