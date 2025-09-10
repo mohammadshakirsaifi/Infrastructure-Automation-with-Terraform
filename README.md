@@ -1,6 +1,8 @@
 # Infrastructure Automation with Terraform
 
 This repository automates the lifecycle management of EC2 instances, integrates EKS workloads, and deploys observability stacks using Terraform.
+## 🖼️ Architecture Diagram
+<img width="1536" height="1024" alt="jpeg" src="https://github.com/user-attachments/assets/9bf7f51b-e403-47a3-82dc-d8d2e2abac22" />
 
 ## 📁 Repository Structure
 
@@ -58,6 +60,8 @@ terraform init
 terraform plan
 terraform apply
 ```
+## Summary
+<img width="765" height="405" alt="image" src="https://github.com/user-attachments/assets/0c0f33eb-9638-4fa4-a455-119cea2e4b2b" />
 
 ## 📬 Contributions
 Feel free to fork and submit pull requests.
